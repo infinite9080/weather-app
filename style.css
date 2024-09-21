@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #2d3436;
+  color: #f5f6fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.6px);
+  -webkit-backdrop-filter: blur(2.6px);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  padding: 50px;
+  max-width: 400px;
+  width: 100%;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #6c5ce7c4;
+}
+
+.weather-box {
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.temperature {
+  font-size: 3em;
+  color: #f5f6fa;
+  margin: 10px 0;
+}
+
+.description {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #f5f6fa;
+}
+
+p {
+  margin: 5px 0;
+  font-size: 1em;
+}
+
+.error {
+  color: red;
+  margin-bottom: 15px;
+}
